@@ -1,0 +1,38 @@
+.more-screen .user-component__subtitle i {
+  color: tomato;
+  opacity: 0.9;
+}
+.more-suggestions {
+  border-top: var(--main-border);
+  padding-top: 30px;
+}
+.more-suggestions__title {
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.more-suggestions__icons {
+  display: flex;
+}
+.more-suggestions__icon {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  align-items: center;
+}
+.more-suggestions__icon-image {
+  width: 60px;
+  height: 60px;
+  background-color: var(--yellow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.more-suggestions__icon-image i {
+  font-size: 32px;
+  color: white;
+}
+.more-suggestions__icons-text {
+  color: var(--gray-color);
+}
