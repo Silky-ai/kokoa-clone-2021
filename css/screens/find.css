@@ -97,3 +97,21 @@
   position: absolute;
   top: -5px;
 }
+
+@keyframes heartBeat {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.5);
+    color: pink;
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  animation: heartBeat 1s linear infinite;
+}
